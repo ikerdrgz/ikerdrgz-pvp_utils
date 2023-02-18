@@ -3,6 +3,8 @@ ZConfig = {
     enable_stats = true, -- Enable full stamina and full shoot abilities?
     enable_fps_command = true, -- Enable /fps command?
     enable_day_command = true, -- Enable /ZConfig.day_command command?
+
+    fps_command = 'fps', -- If ZConfig.enable_fps_command, then register a command to set a timecycle.
     day_command = 'day', -- If ZConfig.enable_day_command, then register a command to set time on 12:00.
 
     no_recoil_weapons = {
