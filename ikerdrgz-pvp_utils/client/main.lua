@@ -7,7 +7,7 @@ CreateThread(function()
     end
 
     if ZConfig.enable_fps_command then
-        RegisterCommand('fps', function()
+        RegisterCommand(ZConfig.fps_command, function()
             fps = not fps
         
             if fps then
